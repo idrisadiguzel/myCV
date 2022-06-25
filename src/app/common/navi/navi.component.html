@@ -1,0 +1,74 @@
+<!-- ======= Mobile nav toggle button ======= -->
+<!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+<i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+<!-- ======= Header ======= -->
+<header id="header" class="d-flex flex-column justify-content-center">
+  <nav id="navbar" class="navbar nav-menu">
+    <ul>
+      <li>
+        <a href="#hero" class="nav-link scrollto active"
+          ><i class="bx bx-home"></i> <span>Ana Sayfa</span></a
+        >
+      </li>
+      <li>
+        <a href="#about" class="nav-link scrollto"
+          ><i class="bx bx-user"></i> <span>Hakkımda</span></a
+        >
+      </li>
+      <li>
+        <a href="#resume" class="nav-link scrollto"
+          ><i class="bx bx-file-blank"></i> <span>Özgeçmiş</span></a
+        >
+      </li>
+      <li>
+        <a href="#facts" class="nav-link scrollto"
+          ><i class="bx bx-server"></i> <span>Özelliklerim</span></a
+        >
+      </li>
+      <li>
+        <a href="#contact" class="nav-link scrollto"
+          ><i  class="bx bx-envelope"></i> <span>İletişim</span></a
+        >
+      </li>
+    </ul>
+  </nav>
+  <!-- .nav-menu -->
+</header>
+<!-- End Header -->
+
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex flex-column justify-content-center">
+  <div class="container" data-aos="zoom-in" data-aos-delay="100">
+    <h1> {{user.firstName + " " + user.lastName}} </h1>
+    <p>
+      I'm<span
+        class="typed"
+        data-typed-items="Designer, Developer, Freelancer, Photographer"
+      >
+        {{user.degree}}</span
+      >
+    </p>
+    <div class="social-links">
+      <a href="{{user.linkedinLink}}" target="_blank" class="linkedin"
+        ><i class="bx bxl-linkedin"></i
+      ></a>
+      <a href="{{user.githubLink}}" target="_blank" class="github"
+        ><i class="bx bxl-github"></i
+      ></a>
+      <a href="mailto:{{user.email}}" target="_blank" class="mailto"
+      ><i class="bx bx-mail-send"></i
+    ></a>
+      <a href="{{user.mediumLink}}" target="_blank" class="medium"
+        ><i class="bx bxl-medium"></i
+      ></a>
+      <a href="{{user.steamLink}}" target="_blank" class="steam"
+        ><i class="bx bxl-steam"></i
+      ></a>
+
+      <a href="{{user.instagramLink}}" target="_blank" class="instagram"
+        ><i class="bx bxl-instagram"></i
+      ></a>
+    </div>
+  </div>
+</section>
+<!-- End Hero -->
