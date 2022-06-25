@@ -5,13 +5,13 @@
 export const environment = {
   production: false,
    firebase: {
-    apiKey: "AIzaSyDJgmo7tpSuZQMqgpI-HrSqIOLMbas8c6E",
+    apiKey: "",
     authDomain: "idris-cv.firebaseapp.com",
     projectId: "idris-cv",
     storageBucket: "idris-cv.appspot.com",
-    messagingSenderId: "236751426135",
-    appId: "1:236751426135:web:18e9cee3b73313d0f40912",
-    measurementId: "G-KH2WSS3PP3"
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
   }
 };
 
